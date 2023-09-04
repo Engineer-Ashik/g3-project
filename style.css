@@ -1,8 +1,68 @@
-h3{
-    font-weight: 400px;
+/* Font imported here.......... */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap');
+
+/* header style */
+header {
+    background-color: #FF900E1A;
 }
 
-nav{
+/* Navbar style */
+nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-title{
+    color:#131313;
+    margin: 0px 200px;
+    font-size: 3rem;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 80px;
+    margin: 0px 200px;
+    font-size: 1.1rem;
+}
+
+.nav-links > a {
+    color: #424242;
+    text-decoration:none;
+    justify-content: space-around;
+}    
+
+/* Banner Style */
+.banner-title {
+    font-size: 4rem;
+    color: #131313;
+    text-align: center;
+    
+}
+
+.banner-paragraph {
+    color:#727272;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0px 560px;
+}
+
+.banner-img{
+    padding: 50px 240px;
+    border-radius: 8px;
+    width: 1440px;
+    height: 700px;
+}
+
+.button-primary{
+    color:white;
+    border-radius: 8px;
+    border-color: #FF900E;
+    background: #FF900E;
+    width: 9rem;
+    height: 3rem;
+    margin: 0px 870px;
+    font-size: 1.2rem;
 }
