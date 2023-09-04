@@ -66,3 +66,32 @@ nav {
     margin: 0px 870px;
     font-size: 1.2rem;
 }
+
+/* -------Media Query----------- */
+
+/* Medium device Media Query */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+
+    .nav-links {
+        gap: 40px;
+}
+    .nav-title, 
+    .banner-title {
+        font-size: 2rem;
+    }
+    .banner-paragraph{
+        padding: 0px 1px;
+    } 
+
+    .banner-img > img{
+        padding: 5px 640px;
+        border-radius: 8px;
+        width: 40px;
+        height: 00px;
+    
+    }
+}
+/* Media Query */
