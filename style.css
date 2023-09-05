@@ -52,9 +52,14 @@ nav {
 .banner-img{
     padding: 50px 240px;
     border-radius: 8px;
+
+}
+
+.banner-img > img {
     width: 1440px;
     height: 700px;
 }
+
 
 .button-primary{
     color:white;
@@ -86,12 +91,19 @@ nav {
         padding: 0px 1px;
     } 
 
-    .banner-img > img{
-        padding: 5px 640px;
+    .banner-img{
+        padding: 0px;
         border-radius: 8px;
-        width: 40px;
-        height: 00px;
-    
     }
+
+    .banner-img > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .button-primary{
+        margin: 20px 110px;
+    }
+    
 }
 /* Media Query */
