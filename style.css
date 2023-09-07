@@ -72,6 +72,18 @@ nav {
     font-size: 1.2rem;
 }
 
+/* Quick-List Style */
+
+.quicklist{
+    display: flex;;
+}
+
+.quick-photos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+
 /* -------Media Query----------- */
 
 /* Medium device Media Query */
