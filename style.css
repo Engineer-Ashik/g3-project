@@ -75,13 +75,49 @@ nav {
 /* Quick-List Style */
 
 .quicklist{
-    display: flex;;
+    display: flex;
+    padding: 85px 300px;
 }
 
 .quick-photos{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 20px;
+    gap: 24px;
+}
+.quick-para{
+    padding: 70px 100px;
+}
+
+.quick-paragraph{
+    text-align: left;
+    color:#727272;
+}
+
+.quick-head{
+    font-size: 3rem;
+    font-weight: 500;
+    color:#727272;
+}
+
+.Features{
+    font-size: 3rem;
+    color: #FF900E;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.button-quick{
+    color:white;
+    border-radius: 8px;
+    border-color: #FF900E;
+    background: #FF900E;
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    margin-top: 35px;
 }
 
 /* -------Media Query----------- */
