@@ -14,8 +14,8 @@ nav {
 
 }
 
-.nav-title{
-    color:#131313;
+.nav-title {
+    color: #131313;
     margin: 0px 200px;
     font-size: 3rem;
 
@@ -28,41 +28,41 @@ nav {
     font-size: 1.1rem;
 }
 
-.nav-links > a {
+.nav-links>a {
     color: #424242;
-    text-decoration:none;
+    text-decoration: none;
     justify-content: space-around;
-}    
+}
 
 /* Banner Style */
 .banner-title {
     font-size: 4rem;
     color: #131313;
     text-align: center;
-    
+
 }
 
 .banner-paragraph {
-    color:#727272;
+    color: #727272;
     font-size: 1rem;
     text-align: center;
     padding: 0px 560px;
 }
 
-.banner-img{
+.banner-img {
     padding: 50px 240px;
     border-radius: 8px;
 
 }
 
-.banner-img > img {
+.banner-img>img {
     width: 1440px;
     height: 700px;
 }
 
 
-.button-primary{
-    color:white;
+.button-primary {
+    color: white;
     border-radius: 8px;
     border-color: #FF900E;
     background: #FF900E;
@@ -74,43 +74,44 @@ nav {
 
 /* Quick-List Style */
 
-.quicklist{
+.quicklist {
     display: flex;
     padding: 85px 300px;
 }
 
-.quick-photos{
+.quick-photos {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-.quick-para{
-    padding: 70px 100px;
+
+.quick-para {
+    padding: 160px 62px;
 }
 
-.quick-paragraph{
+.quick-paragraph {
     text-align: left;
-    color:#727272;
+    color: #727272;
 }
 
-.quick-head{
+.quick-head {
     font-size: 3rem;
     font-weight: 500;
-    color:#727272;
+    color: #727272;
 }
 
-.Features{
+.Feat {
     font-size: 3rem;
     color: #FF900E;
 }
 
-h3{
+h3 {
     font-size: 3rem;
     font-weight: 700;
 }
 
-.button-quick{
-    color:white;
+.button-quick {
+    color: white;
     border-radius: 8px;
     border-color: #FF900E;
     background: #FF900E;
@@ -120,38 +121,91 @@ h3{
     margin-top: 35px;
 }
 
+/* Features Sections */
+.Features {
+    display: flex;
+}
+
+.Features-img > img {
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+}
+
+.Features-para {
+    padding: 8px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 8px;
+}
+
+.Features-button{
+    position: relative;
+    color: white;
+    border-radius: 8px;
+    border-color: #FF900E;
+    background: #FF900E;
+    width: 9rem;
+    height: 3rem;
+    font-size: 4rem;
+    margin-top: 0px;
+}
 /* -------Media Query----------- */
 
 /* Medium device Media Query */
 @media screen and (max-width:576px) {
-    nav{
+    nav {
         flex-direction: column;
     }
 
     .nav-links {
         gap: 40px;
-}
-    .nav-title, 
+    }
+
+    .nav-title,
     .banner-title {
         font-size: 2rem;
     }
-    .banner-paragraph{
-        padding: 0px 1px;
-    } 
 
-    .banner-img{
+    .banner-paragraph,
+    .quick-para {
+        padding: 0px 1px;
+    }
+
+    .banner-img {
         padding: 0px;
         border-radius: 8px;
     }
 
-    .banner-img > img {
+    .banner-img>img {
         width: 100%;
         height: 100%;
     }
 
-    .button-primary{
-        margin: 20px 110px;
+    .button-primary {
+        margin: 20px 200px;
     }
-    
+/* Quick-List media query Style */
+.quicklist,
+.quick-photos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px 5px;
 }
+
+.quick-photos>img,
+.quick-para {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/* Features media query Style */
+.Features, .Features-img > img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+
 /* Media Query */
+}
